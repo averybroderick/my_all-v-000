@@ -8,6 +8,7 @@ def my_all?(collection)
     if yield(collection[i]) == false
       output = false
       i+=1
+    end
   end
   output
 end
